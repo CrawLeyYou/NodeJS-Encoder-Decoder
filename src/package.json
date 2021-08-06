@@ -1,0 +1,12 @@
+{
+  "name": "encoder-decoder",
+  "version": "1.0.0",
+  "description": "Encoder and Decoder in Javascript",
+  "author": "CrawLeyYou",
+  "license": "MIT",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "ramda": "^0.27.1",
+    "utf8": "^3.0.0"
+  }
+}
