@@ -5,7 +5,7 @@
 [![Stars](https://img.shields.io/github/stars/CrawLeyYou/NodeJS-Encoder-Decoder)]()
 [![Release](https://img.shields.io/github/v/release/CrawLeyYou/NodeJS-Encoder-Decoder)]()
 
-This repository contains a file that encodes your input and also has the decoder for the decode encoded output.
+This repository contains an encoder and decoder that inverts the actual base64 output and adds junk strings and encrypts it.
 
 # Installation
 Firstly install [NodeJS](https://nodejs.org/en/) with [npm](https://nodejs.org/en/knowledge/getting-started/npm/what-is-npm/) and after installation type: 
