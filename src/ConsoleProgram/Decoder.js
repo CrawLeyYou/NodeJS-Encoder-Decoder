@@ -20,7 +20,6 @@ var SFS6 = SFS5.split("", RNSL).toString().split(",").join("")
 var SFS7 = SFS5.split(SFS6).toString().split(",").join("")
 var SFS8 = SFS4 + SFS7
 var SFS9 = chars.length(SFS8)
-var test = SFS8.length
 var SFS10 = SFS9/2
 var SFS11 = SFS8.split("", SFS10).toString().split(",").join("");
 var SFS12 = SFS8.split(SFS11).toString().split(",").join("");
