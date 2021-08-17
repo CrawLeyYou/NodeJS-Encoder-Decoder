@@ -1,0 +1,22 @@
+{
+  "name": "electron",
+  "version": "1.0.0",
+  "description": "gui thing",
+  "main": "GUI.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrawLeyYou/NodeJS-Encoder-Decoder.git"
+  },
+  "author": "CrawLeyYou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrawLeyYou/NodeJS-Encoder-Decoder/issues"
+  },
+  "homepage": "https://github.com/CrawLeyYou/NodeJS-Encoder-Decoder#readme",
+  "devDependencies": {
+    "electron": "^13.1.9"
+  }
+}

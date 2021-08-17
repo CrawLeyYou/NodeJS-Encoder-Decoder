@@ -1,0 +1,129 @@
+body {
+    background-color: black;
+
+}
+
+p {
+    color: crimson;
+    font-size: 30px;
+    position: relative;
+}
+
+h1 {
+    color: white;
+    font-size: 15px;
+
+}
+
+h2 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.rainbow-bg {
+    animation: rainbow-bg 15s linear;
+    animation-iteration-count: infinite;
+}
+
+.bar {
+    width: auto;
+    height: 3px;
+    padding-top: 1.5px;
+    position: -webkit-sticky;
+    white-space: nowrap;
+}
+
+@keyframes rainbow-bg {
+
+    100%,
+    0% {
+        background-color: rgb(255, 0, 0);
+    }
+
+    8% {
+        background-color: rgb(255, 127, 0);
+    }
+
+    16% {
+        background-color: rgb(255, 255, 0);
+    }
+
+    25% {
+        background-color: rgb(127, 255, 0);
+    }
+
+    33% {
+        background-color: rgb(0, 255, 0);
+    }
+
+    41% {
+        background-color: rgb(0, 255, 127);
+    }
+
+    50% {
+        background-color: rgb(0, 255, 255);
+    }
+
+    58% {
+        background-color: rgb(0, 127, 255);
+    }
+
+    66% {
+        background-color: rgb(0, 0, 255);
+    }
+
+    75% {
+        background-color: rgb(127, 0, 255);
+    }
+
+    83% {
+        background-color: rgb(255, 0, 255);
+    }
+
+    91% {
+        background-color: rgb(255, 0, 127);
+    }
+}
+
+.btn {
+    position: center;
+    left: 50%;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #000000;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border: solid #000000 2px;
+    display: inline;
+}
+
+.btn:hover {
+    background: #383838;
+    text-decoration: none;
+}
+
+.space {
+    padding: 10px 10px 10px 10px;
+
+}
+
+.space2 {
+    padding: 35px 35px 35px 35px;
+}
+
+.input {
+    background-color: black;
+    color: white;
+    border: solid #313131 2px;
+    width: 70%;
+}
+
+.output {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    margin-right: auto;
+    margin-left: auto;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <link id="w3.css" rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="index.css" media="screen">
+  <title>NodeJS Encoder/Decoder</title>
+</head>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="./apiconnect.js"></script>
+
+<body>
+  <div class="bar rainbow-bg"></div>
+  <p class="w3-center w3-animate-opacity">NodeJS Encoder/Decoder</p>
+  <div class="w3-center">
+    <button class="w3-animate-opacity btn" onclick="Encode()">Encode</button>
+    <button class="w3-animate-opacity btn" onclick="Decode()">Decode</button>
+  </div>
+  <div class="space2"></div>
+  <div class="w3-center">
+    <input id="input" type="text" class="input w3-animate-opacity w3-center" placeholder="Insert input."></input>
+  </div>
+  <div class="space"></div>
+  <h2 class="w3-animate-opacity w3-center">Output:</h2>
+  <h2 id="output" class="output w3-animate-opacity w3-center"></h2>
+  <h1 class="w3-display-bottomright w3-animate-opacity">Powered by ElectronJS.</h1>
+</body>
+
+</html>

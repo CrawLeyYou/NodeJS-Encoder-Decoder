@@ -1,0 +1,26 @@
+{
+  "name": "nodejs-encoder-decoder",
+  "version": "1.3.0",
+  "description": "a source code of NodeJS Encoder Decoder.",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CrawLeyYou/NodeJS-Encoder-Decoder.git"
+  },
+  "keywords": [
+    "Encoder",
+    "Decoder",
+    "NodeJS"
+  ],
+  "author": "CrawLeyYou",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CrawLeyYou/NodeJS-Encoder-Decoder/issues"
+  },
+  "homepage": "https://github.com/CrawLeyYou/NodeJS-Encoder-Decoder#readme"
+}
